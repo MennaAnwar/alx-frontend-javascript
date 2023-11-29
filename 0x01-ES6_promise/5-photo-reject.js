@@ -1,4 +1,4 @@
-export default function signUpUser(firstName, lastName) {
+export default function uploadPhoto(filename) {
   return new Promise((reject) => {
     reject(new Error(`${filename} cannot be processed`));
   });
